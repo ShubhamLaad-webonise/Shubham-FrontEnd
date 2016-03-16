@@ -3,61 +3,65 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Front end assignment2</title>
-		<meta name="description" content="HTML CSS">
+		<meta name="description" content="Basic HTML CSS">
+		<meta name="keywords" content="assienment2,html5,example,css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css"></link>
 	</head>
 	<body>
 		<header>
 			<div class="container" >
-				<div class="logo"></div>				
+				<div class="logo"><a href="javascript:void(0);" title="home"></a></div>				
 				<ul class="headerNavigation">
-					<li><a href="javascript:void(0);">THE GALLERY</a></li>
-					<li><a href="javascript:void(0);">HOW IT WORKS </a></li>
-					<li><a href="javascript:void(0);">HELP</a></li>
-				</ul>				
+					<li class="listingHeader"><a href="javascript:void(0);" title="the gallery">THE GALLERY</a></li>
+					<li class="listingHeader"><a href="javascript:void(0);" title="how it works">HOW IT WORKS </a></li>
+					<li class="listingHeader"><a href="javascript:void(0);" title="help">HELP</a></li>
+					<li class="clearList clear"></li>
+				</ul>
+				<div class="clear"></div>		
 			</div>
 		</header>
 		<main>
 			<div class="banner">	<!-- 1st division of main-->			
 			</div>
 			<div class="container"><!--div 2 for main -->
-				<p class="heading">HOW IT WORKS</p>
-				<ul class="arts">
-					<li>
-						<a href="javascript:void(0);">
-						<div class="circle"></div>
+				<h1 class="heading">HOW IT WORKS</h1>
+				<ul class="listingArt">
+					<li class="artList">
+						<a href="javascript:void(0);" title="add art">
+						<span class="circle"></span>
 						<p>Add art to your queue online</p>
 						</a>
 					</li>
-					<li>
-						<a href="javascript:void(0);">
-						<div class="circle"></div>
-						<p>Add art to your queue online</p>
+					<li class="artList">
+						<a href="javascript:void(0);" title="receive art at home">
+						<span class="circle"></span>
+						<p>Receive art at your home in the oder you specify</p>
 						</a>
 					</li>
-					<li>
-						<a href="javascript:void(0);">
-						<div class="circle"></div>
-						<p>Add art to your queue online</p>
+					<li class="artList">
+						<a href="javascript:void(0);" title="keep art">
+						<span class="circle"></span>
+						<p>Keep the art for as long as you like.Buy only what you love</p>
 						</a>
 					</li>
-					<li>
-						<a href="javascript:void(0);">
-						<div class="circle"></div>
-						<p>Add art to your queue online</p>
+					<li class="artList">
+						<a href="javascript:void(0);" title="return art">
+						<span class="circle"></span>
+						<p>Return the art to receive the next piece in your queue</p>
 						</a>
 					</li>
-							
-				</ul>				
+					<li class="clear clearList"></li>							
+				</ul>							
 			</div>
 		</main>
 		<footer >
 			<div class="container">
 				<ul class="footerNavigation">
-					<li><a href="javascript:void(0);">HOME</a></li>
-					<li><a href="javascript:void(0);">THE GALLERY</a></li>
-					<li><a href="javascript:void(0);">HOW IT WORKS </a></li>
-					<li><a href="javascript:void(0);">HELP</a></li>
+					<li class="listingFooter"><a href="javascript:void(0);" title="home">HOME</a></li>
+					<li class="listingFooter"><a href="javascript:void(0);" title="the gallery">THE GALLERY</a></li>
+					<li class="listingFooter"><a href="javascript:void(0);" title="how it works">HOW IT WORKS </a></li>
+					<li class="listingFooter"><a href="javascript:void(0);" title="help">HELP</a></li>
+					<li class="clear clearList"></li>
 				</ul>
 			</div>
 		</footer>		
