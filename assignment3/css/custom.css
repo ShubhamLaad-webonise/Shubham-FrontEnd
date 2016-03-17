@@ -1,0 +1,90 @@
+.header {
+	background-color: #080808;
+	border-radius: 0;
+	margin-bottom: 0;
+	border: none;
+	padding: 20px 0;
+}
+.menu{
+	padding: 0;
+}
+
+.menu ul li{
+	margin-left: 30px;
+}
+.menu ul li:first-child{
+	margin-right: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+	padding-left: 0;
+	padding-right: 0;
+	color: #9d9d9d;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:#FFFFFF;
+}
+.banner{
+	background-color: #777777;
+	padding-top: 263px;
+	padding-bottom: 70px;
+	color: #FFFFFF;
+	margin-bottom: 60px;
+}
+.banner h1{
+	font-size: 18px;
+	margin-top: 0;
+}
+.banner p{
+	font-size: 14px;
+	margin:0 auto 20px;
+	width: 600px;
+}
+.listingImage{
+	list-style-type: none;	
+	padding-left: 0;
+	padding-bottom: 110px;
+	color: #5a5a5a; 
+	border-bottom: 1px solid #000;
+	margin-bottom: 80px;
+}
+.list{
+	margin: 0 auto;
+}
+.list div{
+	margin-bottom: 25px;
+}
+
+.list h2{
+	font-size: 18px;
+}
+.list p{
+	font-size: 14px;
+}
+.contectUs h2{
+	margin-top: 0;
+	font-size: 20px;
+}
+.contectUS p{
+	margin-bottom: 30px;
+}
+.space{
+	margin-bottom: 20px;
+}
+
+.footer{
+	padding: 40px 0 45px;
+	border-top: 1px solid #000;
+	margin-top: 80px;
+}
+.footerList{
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.footerList li{
+	margin-left: 40px;
+}
+.footerList li:first-child{
+	list-style-type: none;
+	margin-left: 0;
+}

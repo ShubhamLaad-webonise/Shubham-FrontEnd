@@ -14,7 +14,6 @@ body{
 }
 header{
 	background-color: black;
-	height: 50px;
 }
 .logo{ /*in header*/
 	float: left;
