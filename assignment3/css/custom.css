@@ -9,6 +9,10 @@
 	padding: 0;
 }
 
+.navbar-default .navbar-collapse{
+	border-color: none;
+}
+
 .menu ul li{
 	margin-left: 30px;
 }
@@ -52,20 +56,23 @@
 	margin: 0 auto;
 }
 .list div{
-	margin-bottom: 25px;
+	width: 140px;
+	height: 140px;
+	margin: 0 auto 25px;
 }
 
 .list h2{
 	font-size: 18px;
+	margin-top: 0;
 }
 .list p{
 	font-size: 14px;
 }
-.contectUs h2{
+.contactUs h2{
 	margin-top: 0;
 	font-size: 20px;
 }
-.contectUS p{
+.contactUs p{
 	margin-bottom: 30px;
 }
 .space{
@@ -83,8 +90,4 @@
 }
 .footerList li{
 	margin-left: 40px;
-}
-.footerList li:first-child{
-	list-style-type: none;
-	margin-left: 0;
 }
