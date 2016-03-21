@@ -16,7 +16,7 @@
       				<a href="#" title="logo"></a>
     			</div>
     			<ul class="nav navbar-nav navbar-right navListing">
-    				<li><a href="#" title="flits">Flits</a></li>
+    				<li><a href="#" title="flits">Flights</a></li>
             		<li><a href="#" title="Hotels">Hotels</a></li>
                		<li><a href="#" title="Vacations">Vacations</a></li>
                		<li><a href="#" title="Deals">Deals</a></li>
@@ -30,10 +30,12 @@
 			<div class="container">
 				<div class="row">
 					<form class="col-md-7 formBanner">
-						<div class="form-group inputFormLocation"><label >location</label><input type="text" class="form-control "  placeholder="Inaput destionation" ></div>
-						<div class="form-group pull-left inputForm"><label >Checck in</label><input type="text" class="form-control "  placeholder="05/07/2015" ></div>
-						<div class="form-group pull-left inputForm "><label>Check out</label><input type="text" class="form-control "  placeholder="05/07/2015" ></div>
-						<div class="form-group pull-left inputForm"><label >Accomodation</label><input type="text" class="form-control "  placeholder="1 Room, 2 Guest" ></div>
+						<div class="form-group"><label >location</label><input type="text" class="form-control "  placeholder="Enter destionation" ></div>
+						<div class="inputForm clearfix">
+							<div class="form-group pull-left"><label >Checck in</label><input type="text" class="form-control "  placeholder="05/07/2015" ></div>
+							<div class="form-group pull-left"><label>Check out</label><input type="text" class="form-control "  placeholder="05/07/2015" ></div>
+							<div class="form-group pull-left"><label >Accomodation</label><input type="text" class="form-control "  placeholder="1 Room, 2 Guest" ></div>
+						</div>	
 						<button type="button" class="btn btn-danger center-block">FIND</button>
 					</form>	
 					<h1 class="col-md-5 bannerHeading ">hi this is my page, where u want to visite.Thanks </h1>
@@ -42,19 +44,19 @@
 		</div>
 		<div class="reason">
 			<div class="container">
-				<h2 class="reasonHeading ">Reasons to book</h2>
-				<ul  class="row listingReason text-center">
-					<li class="col-md-4 ">
+				<h2 class="reasonHeading ">Reasons to book with us</h2>
+				<ul  class="listingReason text-center clearfix">
+					<li class="pull-left">
 						<div class="reasonA center-block"></div>
 						<p>hi thos is rezsjf kif</p>
 						<a href="#" title="flits">Learn more></a>
 					</li>
-					<li class="col-md-4 ">
+					<li class="pull-left">
 						<div class="reasonB center-block"></div>
-						<p>hi thos is rezsjf kif fgftgdte get3et3</p>
+						<p>hi thos is rezsjf kif hu kojjjfi jhf</p>
 						<a href="#" title="flits">Learn more></a>
 					</li>
-						<li class="col-md-4 ">
+						<li class="pull-left">
 						<div class="reasonC center-block"></div>
 						<p>hi thos is rezsjf kif</p>
 						<a href="#" title="flits">Learn more></a>
@@ -71,10 +73,14 @@
 						<img src="img/image3.png " alt="image3">
 						<div class="dealsBox">
 							<h3>Last Minute Deals</h3>
-							<p >Bahmash</p>
+							<p class="bahmash">Bahmash</p>
 							<p class="vacation">vacation from</p>
-							<span class="symbol">c$</span>
-							<span class="price">198</span>
+							<span>
+								<span class="symbol">c$</span>
+								<span class="price">198</span>
+							</span>
+							
+							
 						</div>
 					</div>
 
@@ -84,19 +90,25 @@
 						<ul >
 							<li class="clearfix">
 								<span class="pull-left dealsChartText">lkfhsifs jfkdk fhfdh</span>
-								<span class="pull-right dealsChartPrice">480</span>
-								<span class="pull-right dealsChartSimbol">c$</span>								
+								<span class="pull-right">
+									<span class=" dealsChartSimbol">c$</span>
+									<span class="dealsChartPrice">480</span>									
+								</span>									
 							</li>
 							<li class="clearfix">
-								<span class="pull-left dealsChartText">lkfhsifs jfkdk fhfdh</span>
-								<span class="pull-right dealsChartPrice">500</span>
-								<span class="pull-right dealsChartSimbol">c$</span>								
+								<span class="pull-left dealsChartText">asdfg hjklk zxcvbn m</span>
+								<span class="pull-right">
+									<span class="dealsChartSimbol">c$</span>	
+									<span class="dealsChartPrice">500</span>
+								</span>
+															
 							</li>
 							<li class="clearfix">
-								<span class="pull-left dealsChartText">lkfhsifs jfkdk fhfdh</span>
-								<span class="pull-right dealsChartPrice">350</span>
-								<span class="pull-right dealsChartSimbol">c$</span>			
-							</li>
+								<span class="pull-left dealsChartText">qwertyu ffio   p</span>
+								<span class="pull-right">
+									<span class=" dealsChartSimbol">c$</span>	
+									<span class=" dealsChartPrice">350</span>
+								</span>
 						</ul>
 						</div>
 					</div>
@@ -118,15 +130,12 @@
 			</div>			
 		</div>
 		<div class="firstPurchase text-center">
-        	<span>join today and get 
-        		<span >$25</span> 
-        		off on your first purchase
-        	</span>
+        	<span>join today and get<span > $25 </span>off on your first purchase </span>
     		<button type="button" class="btn">Join Now</button>
     	</div>
     	<div class="footer">
             <div class="container">
-                <div class="row">
+                <div class="clearfix">
                     <ul class="footerList pull-left">
                         <li><a href="#">Destinations</a></li>
                         <li><a href="#">Groups</a></li>
@@ -142,13 +151,10 @@
                         <li><a href="#">Privacy policy</a></li>
                         <li><a href="#">About us</a></li>
                     </ul>
-                    <div class="clearfix"></div>
-                    <p>Copyright &#169; 2004 - 2015 lastminuteclub.com. All rights reserved</p>
-                </div>
+                </div>    
+                    <p>Copyright &#169; 2004 - 2015 lastminuteclub.com. All rights reserved</p>           
             </div>
         </div>    	
-
-		<script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
 	</body>	
 </html>		
