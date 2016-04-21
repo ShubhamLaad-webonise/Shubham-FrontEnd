@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+.sitLinkList .clear,.signupList .clear,.menuList .clear,.clear,.leaderList .clear,.patnerList .clear{
+	float: none;
+	clear: both;
+}
+.topStrip{
+	background-color: #19232d;
+	font-size: 12px;
+	position: relative;
+}
+.logo{
+	display:block;
+	background-image: url(../images/logo.png);
+	height: 123px;
+	width: 190px;
+	position: absolute;
+}
+.sitLinkList{
+	margin-left: 80px;
+	float: left;
+}
+.sitLinkList  li{
+	float: left;
+	margin-left: 19px;
+}
+.sitLinkList a{
+	color:#627588;
+	padding: 10px;
+	display: block;
+}
+.sitLinkList a:hover{
+	background-color: #121212;
+	color: #ffffff;
+}
+.signupList {
+	float: right;
+}
+.signupList li{
+	float: left;
+}
+.signupList a{
+	color: #ffffff;
+	display: block;
+	padding: 10px;
+}
+.menu{
+	background-color: #ffffff;
+}
+.menuList{
+	float: right;
+}
+.menuList li{
+	float: left;
+}
+.menuList li a{
+	color: #19232d;
+	display: block;
+	padding: 27px 17px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.searchIcon{
+	width: 17px;
+	height: 17px;
+	background-image: url(../images/searchIcon.png);
+	display: block;
+}
+.banner{
+	height: 328px;
+	padding: 115px 0 0 0;
+	background-image: url(../images/bannerBasketball.jpg);
+}
+.bannerText{
+	color: #ffffff;
+	width: 432px;
+	margin-left: 90px;
+}
+h1,h2{
+	font-size: 36px;
+	text-align: center;	
+}
+h3{
+	font-size: 28px;
+	color: #cd091d;
+	text-align: center;	
+}
+.bannerText h2{
+	margin-bottom: 15px;
+	text-align: left;
+	color: #ffffff;
+}
+.bannerText h3{
+	margin-bottom: 30px;
+	text-align: left;
+	color: #ffffff;
+}
+.bannerText p{
+	font-size: 14px;
+	color: #82878b;
+	margin-bottom: 30px;
+}
+.standard{
+	background-color: #ffffff;
+}
+.standardHead{
+	margin-bottom: 60px;
+}
+.leaderList{
+	margin:0 auto;
+	margin-bottom: 70px;
+}
+.leaderList li{
+	float: left;
+	margin-left: 80px;
+}
+.leaderList > :first-child {
+    margin-left: 0;
+}
+.map{
+	background-image: url(../images/map.png);
+	height: 30px;
+	width: 70px;
+	display:inline-block;
+}
+.leaderText{
+	display:inline-block;
+	width: 160px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+.courseCount{
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.count{	
+	color: #cd091d;
+}
+.countText{
+	color: #82878b;
+}
+.patner{
+	background-color: #eeeeee;
+}
+.patnerList li{
+	float: left;
+	margin-left: 40px;
+}
+.ncaaEligiblityCenter{
+	width: 90px;
+	height: 45px;
+}
+.usaTrackField{
+	width: 49px;
+	height: 61px;
+}
+.usaFootball{
+	width: 103px;
+	height: 41px;
+}
+.usaBaseball{
+	width: 76px;
+	height: 40px;
+}
+.cdc{
+	width: 65px;
+	height: 48px;
+}
+.asaSoftball{
+	width: 60px;
+	height: 66px;
+}
+.pgaAmerica{
+	width: 52px;
+	height: 48px;
+}
+.urlsLacrosse{
+	width: 58px;
+	height: 64px;
+}
+.patnerList{
+	margin-bottom: 40px;
+	padding: 40px 0;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.adJoin{
+	width: 610px;
+	height: 77px;
+	margin: 0 auto 50px;
+}
+.findCourse{
+	background-image: url(../images/findCourse.jpg);
+	height: 180px;
+	padding-top: 35px;
+}
+h1{
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.courseForm{
+	text-align: center;
+	margin-bottom: 45px;
+	border: none;
+} 
+.courseForm input{
+	border-radius: 6px;
+	height: 33px;
+	border: none;
+	margin-left: 20px;
+}
+.search{
+	background-color: #004e94;
+	padding: 0 40px;
+	border-radius: 0;
+}
