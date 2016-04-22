@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "Arial";
 }
 ul{
 	list-style-type: none;
@@ -11,9 +12,9 @@ a{
 
 .container{
 	margin: 0 auto;
-	width: 960px;
+	width: 940px;
 }
-.sitLinkList .clear,.signupList .clear,.menuList .clear,.clear,.leaderList .clear,.patnerList .clear{
+.clear,.sitLinkList .clear,.signupList .clear,.menuList .clear,.leaderList .clear,.patnerList .clear,.coreCourseList .clear,.sportSpecificList .clear,.footerListOfList .clear,.socialIconList .clear,.iconList .clear{
 	float: none;
 	clear: both;
 }
@@ -65,6 +66,8 @@ a{
 }
 .menuList li{
 	float: left;
+	border-left: 1px solid;
+	border-color: rgb(219, 219, 219);
 }
 .menuList li a{
 	color: #19232d;
@@ -83,6 +86,7 @@ a{
 	height: 328px;
 	padding: 115px 0 0 0;
 	background-image: url(../images/bannerBasketball.jpg);
+	margin-bottom: 55px;
 }
 .bannerText{
 	color: #ffffff;
@@ -97,6 +101,7 @@ h3{
 	font-size: 28px;
 	color: #cd091d;
 	text-align: center;	
+	margin-bottom: 20px;
 }
 .bannerText h2{
 	margin-bottom: 15px;
@@ -111,13 +116,13 @@ h3{
 .bannerText p{
 	font-size: 14px;
 	color: #82878b;
-	margin-bottom: 30px;
 }
 .standard{
 	background-color: #ffffff;
 }
 .standardHead{
 	margin-bottom: 60px;
+	color: #cd091d;
 }
 .leaderList{
 	margin:0 auto;
@@ -127,13 +132,25 @@ h3{
 	float: left;
 	margin-left: 80px;
 }
-.leaderList > :first-child {
+.leaderList  :first-child,.sportSpecificList >:first-child , .coreCourseList  :first-child ,.socialIconList :first-child,.patnerList :first-child,.courseForm :first-child{
     margin-left: 0;
 }
 .map{
 	background-image: url(../images/map.png);
 	height: 30px;
 	width: 70px;
+	display:inline-block;
+}
+.building{
+	background-image: url(../images/building.png);
+	height: 43px;
+	width: 36px;
+	display:inline-block;
+}
+.threeHeads{
+	background-image: url(../images/threeHeads.png);
+	height: 30px;
+	width: 54px;
 	display:inline-block;
 }
 .leaderText{
@@ -146,6 +163,9 @@ h3{
 	font-size: 28px;
 	text-align: center;
 	margin-bottom: 40px;
+}
+.number{
+	color: #cd091d;
 }
 .count{	
 	color: #cd091d;
@@ -209,6 +229,7 @@ img{
 	background-image: url(../images/findCourse.jpg);
 	height: 180px;
 	padding-top: 35px;
+	margin-bottom: 50px;
 }
 h1{
 	color: #ffffff;
@@ -226,8 +247,232 @@ h1{
 	border: none;
 	margin-left: 20px;
 }
+
 .search{
 	background-color: #004e94;
 	padding: 0 40px;
 	border-radius: 0;
+}
+.coreCourseList{
+	margin-bottom: 80px;
+}
+
+.coreCourseList li{
+	float: left;
+	margin-left: 20px;
+	width: 460px;
+	height: 290px;
+	position: relative;
+}
+.coreCourseList li.clear,.sportSpecificList li.clear{
+	height: 0;
+}
+.coreCourseImageText{
+	background-color: #36414a;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding:15px 0;
+}
+	
+.coreCourseImageText h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+}
+.coreCourseImageText p{
+	font-size: 12px;
+	color: #aaaaaa;
+	text-align: center;
+}
+.viewAll{
+	float: right;
+	color: #19232d;
+	font-size: 12px;
+	line-height: 32px;
+	text-decoration: underline;
+}
+.sportSpecificList{
+	margin-bottom: 40px;
+}
+.sportSpecificHover{
+	display: none;
+	position: absolute;
+	background-color: rgb(54, 65, 74);
+  	opacity: 0.902;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+.iconList{
+	position: absolute;
+	bottom: 15px;
+}
+.iconList li{
+	float: left;
+	margin-left: 20px;
+}
+
+.mailIcon{
+	background-image: url(../images/mailIcon.png);
+	width: 21px;
+	height: 15px;
+}
+.linkedinIcon{
+	background-image: url(../images/linkedinIcon.png);
+	width: 17px;
+	height: 19px;
+}
+.facebookIcon{
+	background-image: url(../images/facebookIcon.png);
+	width: 11px;
+	height: 19px;
+}
+.twitterIcon{
+	background-image: url(../images/twitterIcon.png);
+	width: 24px;
+	height: 17px;
+}
+.googleIcon{
+	background-image: url(../images/googleIcon.png);
+	width: 20px;
+	height: 16px;
+}
+.sportSpecificHover a{
+	position: absolute;
+	color: #444444;
+	font-size: 16px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	padding: 10px;
+	display: inline-block;
+	left: 55px;
+    top: 50px;
+}
+.sportSpecificHover  p{
+	position: absolute;
+	color: #ffffff;
+	top: 160px;
+    font-size: 16px;
+    text-align: center;
+    padding: 25px 0;
+}
+.sportSpecificList li:hover .sportSpecificHover {
+	display: block;
+}
+.sportSpecificList> li{
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	width: 220px;
+}
+.sportSpecificImage{	
+	height: 160px;
+}
+.sportSpecificList li> p{
+	font-size: 16px;
+	color: #000000;
+	background-color: rgb(238, 238, 238);
+	text-align: center;
+	padding: 25px 0;
+}
+.sportSpecificPrize{
+	background-color: rgb(54, 65, 74);
+}
+.money{
+	background-color: rgb(25, 35, 45);
+	display: inline-block;
+	font-size: 17px;
+	padding: 15px;
+}
+.completions{
+	display: inline-block;
+	font-size: 12px;
+	padding: 18px;
+}
+.adWeAllWin{
+	margin: 0 auto 40px;
+	width: 609px;
+	height:77px;
+}
+.footerLink{
+	background-color: #19232d;
+}
+.footerLink >div{
+	padding: 20px 0;
+}
+.footerListOfList{
+	float: left;	
+}
+.footerListOfList li{
+	float: left;
+}
+.footerListOfList ul{
+	padding: 0 20px;
+	border-left: 1px solid;
+	border-color: rgb(36, 51, 64);
+	min-height: 220px;
+}
+.footerListOfList>:first-child ul{
+	padding-left: 0;
+	border: none;
+}	
+.footerLinkList a{
+	font-size: 13px;
+	color: #3f5061;
+}
+.footerLinkList li{
+	margin-bottom: 15px;
+	float: none;
+}
+.footerLinkList > :first-child a{
+	color: #ffffff;
+}
+.social{
+	float: left;
+}
+.tweet{
+	background-color: #31475a;
+	width: 300px;
+	padding: 20px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.tweet .latest{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.tweet p{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.tweet a{
+	color: #ffffff;
+}
+.socialIconList li{
+	float: left;
+	margin-left: 20px;
+}
+.facebookIconFooter{
+	background-image: url(../images/facebookIconFooter.png);
+	width: 13px;
+	height: 22px;
+}
+.twitterIconFooter{
+	background-image: url(../images/twitterIconFooter.png);
+	width: 23px;
+	height: 20px;
+}
+.youtubeIconFooter{
+	background-image: url(../images/youtubeIconFooter.png);
+	width: 30px;
+	height: 30px;
+}
+.copyright{
+	background-color: #000000;
+	color: #3f5061;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px 0;
 }
