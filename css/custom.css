@@ -33,6 +33,7 @@ a{
 .sitLinkList{
 	margin-left: 80px;
 	float: left;
+	position: absolute;
 }
 .sitLinkList  li{
 	float: left;
@@ -63,6 +64,8 @@ a{
 }
 .menuList{
 	float: right;
+	border-right: 1px solid;
+	border-color: rgb(219, 219, 219);	
 }
 .menuList li{
 	float: left;
@@ -75,6 +78,9 @@ a{
 	padding: 27px 17px;
 	font-size: 16px;
 	font-weight: bold;
+}
+.menuList li a:hover{
+	background-color: #eeeeee;
 }
 .searchIcon{
 	width: 17px;
