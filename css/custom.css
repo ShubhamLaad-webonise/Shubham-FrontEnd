@@ -29,10 +29,12 @@ ul li.clear{
 	float: right;
 }
 .logo{
-	color: #ff8a00;
-	font-size: 30px;
+	background-image: url(../images/lmsLogo.png);
+	width: 60px;
+	height: 23px;
 	display: block;
 	float: left;
+	margin-top: 11px;
 }
 .menuList{
 	float: left;
