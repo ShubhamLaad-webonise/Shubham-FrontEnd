@@ -484,10 +484,13 @@ h1{
 .socialIconList li{
 	float: left;
 	margin-left: 20px;
+}
+.socialIconList a{
 	height: 30px;
 	width: 40px;
 	background-position: center;
 	background-repeat: no-repeat;
+	display: inline-block;
 }
 .facebookIconFooter{
 	background-image: url(../images/facebookIconFooter.png);
