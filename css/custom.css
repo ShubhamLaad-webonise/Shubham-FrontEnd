@@ -14,7 +14,7 @@ a{
 	margin: 0 auto;
 	width: 940px;
 }
-.clear,.sitLinkList .clear,.signupList .clear,.menuList .clear,.leaderList .clear,.patnerList .clear,.coreCourseList .clear,.sportSpecificList .clear,.footerListOfList .clear,.socialIconList .clear,.iconList .clear{
+.clear,.clearfix .clear{
 	float: none;
 	clear: both;
 }
@@ -32,7 +32,6 @@ a{
 }
 .sitLinkList{
 	margin-left: 80px;
-	float: left;
 	position: absolute;
 }
 .sitLinkList  li{
@@ -72,21 +71,22 @@ a{
 	border-left: 1px solid;
 	border-color: rgb(219, 219, 219);
 }
-.menuList li a{
+.menuList  a{
 	color: #19232d;
 	display: block;
 	padding: 27px 17px;
 	font-size: 16px;
 	font-weight: bold;
 }
-.menuList li a:hover{
+.menuList  a:hover{
 	background-color: #eeeeee;
 }
 .searchIcon{
 	width: 17px;
 	height: 17px;
 	background-image: url(../images/searchIcon.png);
-	display: block;
+	background-repeat: no-repeat;
+    background-position: center;
 }
 .banner{
 	height: 328px;
@@ -136,33 +136,34 @@ h3{
 }
 .leaderList li{
 	float: left;
-	margin-left: 80px;
+	margin-left: 100px;
+}
+.leaderList span{
+	vertical-align: middle;
 }
 .leaderList  :first-child,.sportSpecificList >:first-child , .coreCourseList  :first-child ,.socialIconList :first-child,.patnerList :first-child,.courseForm :first-child{
     margin-left: 0;
 }
-.map{
-	background-image: url(../images/map.png);
-	height: 30px;
+.imageLeader{
+	height: 45px;
 	width: 70px;
 	display:inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.map{
+	background-image: url(../images/map.png);
 }
 .building{
 	background-image: url(../images/building.png);
-	height: 43px;
-	width: 36px;
-	display:inline-block;
 }
 .threeHeads{
 	background-image: url(../images/threeHeads.png);
-	height: 30px;
-	width: 54px;
-	display:inline-block;
 }
 .leaderText{
 	display:inline-block;
 	width: 160px;
-	margin-left: 30px;
+	margin-left: 10px;
 	font-weight: bold;
 }
 .courseCount{
@@ -183,8 +184,10 @@ h3{
 	background-color: #eeeeee;
 }
 .patnerList li{
-	float: left;
+	display: inline-block;
 	margin-left: 40px;
+	opacity: 0.651;
+	vertical-align: middle;
 }
 .ncaaEligiblityCenter{
 	width: 90px;
@@ -243,21 +246,33 @@ h1{
 	margin-bottom: 35px;
 }
 .courseForm{
-	text-align: center;
-	margin-bottom: 45px;
 	border: none;
 } 
-.courseForm input{
+.courseFormList select{
 	border-radius: 6px;
 	height: 33px;
+	width: 250px;
 	border: none;
+	color: #82878b;
+	font-size: 14px;
+}
+.courseFormList li{
+	float: left;
 	margin-left: 20px;
 }
-
+.courseFormList option:first-child{
+	display: none;
+}
+.courseFormList {
+	float: left;
+}
 .search{
 	background-color: #004e94;
-	padding: 0 40px;
-	border-radius: 0;
+	padding: 10px 40px ;
+	border-radius: 6px;
+	border: none;
+	margin-left: 20px;
+	float: left;
 }
 .coreCourseList{
 	margin-bottom: 80px;
@@ -291,7 +306,11 @@ h1{
 	color: #aaaaaa;
 	text-align: center;
 }
-.viewAll{
+.viewAll h3{
+	float: left;
+	margin-left: 310px;
+}
+.viewAll a{
 	float: right;
 	color: #19232d;
 	font-size: 12px;
@@ -321,47 +340,40 @@ h1{
 }
 .iconList a{
 	display: inline-block;
+	height: 20px;
+	width: 23px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
-.mailIcon
-{
+.mailIcon{
 	background-image: url(../images/mailIcon.png);
-	width: 21px;
-	height: 15px;
 }
+	
 .linkedinIcon{
 	background-image: url(../images/linkedinIcon.png);
-	width: 17px;
-	height: 19px;
 }
+
 .facebookIcon{
 	background-image: url(../images/facebookIcon.png);
-	width: 11px;
-	height: 19px;
+
 }
 .twitterIcon{
 	background-image: url(../images/twitterIcon.png);
-	width: 24px;
-	height: 17px;
 }
 .googleIcon{
 	background-image: url(../images/googleIcon.png);
-	width: 20px;
-	height: 16px;
 }
 .sportSpecificHover >a{
-	position: absolute;
+	display: inline-block;
 	color: #444444;
 	font-size: 16px;
 	background-color: #ffffff;
 	border-radius: 6px;
 	padding: 10px;
-	left: 55px;
-    top: 50px;
+    margin: 50px 0 70px 55px;
 }
 .sportSpecificHover  p{
-	position: absolute;
 	color: #ffffff;
-	top: 160px;
     font-size: 16px;
     text-align: center;
     padding: 25px 0;
@@ -385,6 +397,9 @@ h1{
 	text-align: center;
 	padding: 25px 0;
 }
+.boldText{
+	font-weight: bold;
+}
 .sportSpecificPrize{
 	background-color: rgb(54, 65, 74);
 }
@@ -393,11 +408,13 @@ h1{
 	display: inline-block;
 	font-size: 17px;
 	padding: 15px;
+	color: #ffffff;
 }
 .completions{
 	display: inline-block;
 	font-size: 12px;
 	padding: 18px;
+	color: #82878b;
 }
 .adWeAllWin{
 	margin: 0 auto 40px;
@@ -407,35 +424,41 @@ h1{
 .footerLink{
 	background-color: #19232d;
 }
-.footerLink >div{
+.footerLink .container{
 	padding: 20px 0;
 }
 .footerListOfList{
 	float: left;	
 }
-.footerListOfList li{
+
+.footerListOfList >li{
 	float: left;
-}
-.footerListOfList ul{
-	padding: 0 20px;
 	border-left: 1px solid;
 	border-color: rgb(36, 51, 64);
 	min-height: 220px;
+	padding: 0 20px;
 }
-.footerListOfList>:first-child ul{
-	padding-left: 0;
+.footerListOfList :first-child{
 	border: none;
-}	
-.footerLinkList a{
-	font-size: 13px;
-	color: #3f5061;
+}
+.footerLinkList {
+	margin-top: 15px;
 }
 .footerLinkList li{
 	margin-bottom: 15px;
-	float: none;
 }
-.footerLinkList > :first-child a{
+
+.footerListOfList a{	
 	color: #ffffff;
+	font-size: 13px;
+}
+.footerLinkList a {
+	color: #3f5061;
+}
+
+.footerListOfList .clear{
+	border: none;
+	min-height: 0;
 }
 .social{
 	float: left;
@@ -461,21 +484,19 @@ h1{
 .socialIconList li{
 	float: left;
 	margin-left: 20px;
+	height: 30px;
+	width: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 .facebookIconFooter{
 	background-image: url(../images/facebookIconFooter.png);
-	width: 13px;
-	height: 22px;
 }
 .twitterIconFooter{
 	background-image: url(../images/twitterIconFooter.png);
-	width: 23px;
-	height: 20px;
 }
 .youtubeIconFooter{
 	background-image: url(../images/youtubeIconFooter.png);
-	width: 30px;
-	height: 30px;
 }
 .copyright{
 	background-color: #000000;
