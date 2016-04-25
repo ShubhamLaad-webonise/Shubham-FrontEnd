@@ -34,11 +34,9 @@ ul li.clear{
 	height: 23px;
 	display: block;
 	float: left;
-	margin-top: 11px;
 }
 .menuList{
 	float: left;
-	margin: 11px 0;
 }
 .menuList li{
 	float: left;
@@ -53,7 +51,6 @@ ul li.clear{
 	color: #000000;
 }
 .login{
-	float: left;
 	color: #ff8a00;
 	font-size: 14px;
 	padding: 10px 8px;
@@ -101,7 +98,7 @@ ul li.clear{
 .featureList li{
 	float: left;
 	position: relative;
-	width: 188px;
+	width: 187px;
 	border: 1px solid;
 	border-color: rgb(228, 228, 228);
 	border-radius: 4px;
@@ -116,7 +113,7 @@ ul li.clear{
 	background: url(../images/slice.png);
 	position: absolute;
 	top: -22px;
-    left: 93px;
+    left: 88px;
     width: 44px;
 	height: 44px;
 }
@@ -176,7 +173,7 @@ ul li.clear{
 }
 .footerList{
 	float: none;
-	margin: 0 0 20px;
+	margin-bottom: 20px;
 }
 .footerList a{
 	color: #ffffff;
