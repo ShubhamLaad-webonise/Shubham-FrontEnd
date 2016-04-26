@@ -106,14 +106,13 @@ a{
 	font-size: 22px;
 	color: #ffffff;
 	margin-left: 33px;
-	margin-bottom: 10px;
 	font-family: "rajdhanisemibold";
 }
 .headerLink:focus{
 	color: #ffffff; 
 }
 .headerNav .navListing {
-	padding: 23px 0;
+	padding: 20px 0;
 }
 .headerNav .navListing li{
 	margin-left: 15px;
@@ -224,7 +223,6 @@ a{
 	content: "";
 	width: 24px;
 	height: 25px;
-	display: block;
 	float: left;
 	margin-right: 15px;
 }
