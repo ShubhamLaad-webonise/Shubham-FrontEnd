@@ -217,6 +217,9 @@ a{
 	font-family: "open_sansregular";
 	color: #556569;
 }
+.membership .link{
+	margin: 0 0 10px;
+}
 .membershipList li::before{
 	background: url(../images/sprite.png);
 	background-position: 0 -307px;
@@ -298,6 +301,7 @@ a{
 .verify h2{
 	color: #ffffff;
 	text-align: center;
+	margin-bottom: 80px;
 }
 .verify{
 	background-color: #01284f;
