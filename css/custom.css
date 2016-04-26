@@ -101,7 +101,7 @@ a{
 .link {
 	display: inline-block;
 	background-color: #ef3f37;
-	padding: 16px 55px ;
+	padding: 15px 55px ;
 	border-radius: 5px;
 	font-size: 22px;
 	color: #ffffff;
@@ -126,25 +126,22 @@ a{
 }
 .banner{
 	background-image: url(../images/banner.jpg) ;
-	height: 497px;
+	height: 500px;
 	background-size: cover;
 	position: relative;
 }
 
 .bannerContent{
 	width: 635px;
-	margin: 0 auto;
-	padding-top: 134px;
+	margin: 0 auto 80px;
+	padding-top: 135px;
+	color: #ffffff;
 } 
 .bannerContent h1{
 	font-size: 60px;
 	color: #ffffff;
-	margin-bottom: 22px;
+	margin-bottom: 15px;
 	font-family: "rajdhanisemibold";
-}
-.bannerContent{
-	color: #ffffff;
-	margin-bottom: 90px;
 }
 .bannerContent p{
 	font-family: "open_sansregular";
@@ -315,7 +312,7 @@ a{
 	margin:0 auto;
 }
 .footerNav{
-	padding: 15px 0;
+	padding: 35px 0;
 }
 .infoList a{
 	font-family: "open_sansregular";
@@ -329,7 +326,6 @@ a{
 	font-family: "open_sansregular";
 	color:#9aa8ab;
 	font-size: 12px;
-
 }
 .termList li{
 	margin-left: 15px;
