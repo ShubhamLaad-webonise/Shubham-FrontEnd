@@ -82,6 +82,12 @@ h1,h2,h3,h4,ul,li,a,p{
     margin: 0;
     padding: 0;
 }
+h3,.interscholastic span,.link {
+    font-size: 18px;
+}
+h4,.todayColumnList span,.awardsList span,.bannerImageContent p,.rulesChanges p{
+    font-size: 14px;
+}
 ul{
     list-style-type: none;
 }
@@ -98,7 +104,6 @@ img{
     position: relative;
 }
 .logo{
-    display:block;
     background-image: url(../images/logo.png);
     width: 82px;
     height: 126px;    
@@ -106,7 +111,6 @@ img{
 }
 .sitLinkList{
     margin-left: 80px;
-    position: absolute;
 }
 .sitLinkList  li{
     float: left;
@@ -178,17 +182,17 @@ img{
     font-size: 12px;
     margin-left: 5px;
 }
-.banner div{
+.largeOfficial{
     font-family: "titillium_webbold";
     font-size: 40px;
 }
-.bannerOfficial,.banner div{
+.largeOfficial,.banner span{
     color: #ffffff; 
 }
 .bannerImage{
     background-image: url(../images/banner.jpg) ;
     background-size: cover;
-    padding-top: 230px;
+    padding-top: 225px;
 }
 h1{
     font-family: "titillium_webbold";
@@ -203,7 +207,6 @@ h1{
 }
 .bannerImageContent p{
     color:#a3b9d0;
-    font-size: 14px;
     font-family: "open_sansregular";
     width: 480px;
 }
@@ -212,7 +215,6 @@ h1{
 }
 .link {
     background-color: #cb2c26;
-    font-size: 18px;
     color: #ffffff;
     font-family: "titillium_webregular";
     display: inline-block;
@@ -220,7 +222,7 @@ h1{
 }
 .todayColumn{
     background-color: #ffffff;
-    padding: 115px;
+    padding: 115px 0;
 }
 .learningCenter{
     padding-top: 110px;
@@ -247,12 +249,10 @@ h2{
     margin:0 15px; 
 }
 .todayColumnList div{
-    width: 300px;
     height: 155px;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
 }
 .todayColumnList span,.todayColumnList  h4,.awardsList span , .awardsList h4{
-    font-size: 14px;
     color: #244674;
 }
 
@@ -260,8 +260,11 @@ h2{
     font-family: "open_sansbold";
     margin-bottom: 10px;
 }
-.todayColumnList span,.publicationList a{
+.todayColumnList span{
     font-family: "open_sansitalic";    
+}
+.publicationList a,.rulesChanges p,.interscholastic p,.awardsList span{
+    font-family: "open_sansregular";
 }
 
 .rulesChanges {
@@ -273,9 +276,7 @@ h2{
 }
 .ruleList h4{
     color: #5f8aba;
-    border-bottom: 3px
-    padding-bottom:10px;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 .ruleList li{
     margin-bottom: 30px;
@@ -303,11 +304,8 @@ h2{
 }
 .video{
     height: 210px;
-    width: 380px;
 }
-.awardsList span{
-    font-family: "open_sansregular";
-}
+
 .awardsList  li{
     margin-bottom: 30px;
 }
@@ -319,13 +317,13 @@ h2{
 }
 .interscholastic h3 span{
     color: #776e7c;
-    font-size: 14px;
     margin-left: 10px;
 }
 .interscholastic p{
     color: #5f5b61;
-    font-family: "open_sansregular";
-    margin-bottom: 40px;
+}
+.interscholastic{
+    margin-bottom: 40px;    
 }
 .adJoin{
     width: 610px;
@@ -353,12 +351,13 @@ h2{
     margin-bottom: 15px;
 }
 
-.footerListOfList  a{    
+.footerListOfList > a{    
     color: #ffffff;
     font-size: 13px;
 }
 .footerLinkList a {
     color: #3f5061;
+    font-size: 13px;
 }
 .copyright{
     background: url(../images/patternRule.jpg) repeat;
