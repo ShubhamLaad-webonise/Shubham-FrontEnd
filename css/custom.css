@@ -1,3 +1,4 @@
+
 h1,h2,h3,h4,ul,li,a,p{
 	margin: 0;
 	padding: 0;
@@ -74,6 +75,12 @@ a,a:focus, a:hover{
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body,.panel{
 	border:none;
 }
+.panel-group .panel+.panel {
+	margin: 0;
+}
+.panel-body{
+	padding: 0;
+}
  
 /*banner*/
 .banner{
@@ -81,6 +88,7 @@ a,a:focus, a:hover{
 	background: url(../images/bannerBasketball.jpg) no-repeat;
 	background-size: cover;
 	margin-bottom: 55px;
+	height: 472px;
 }
 .bannerText{
 	color: #ffffff;
@@ -488,8 +496,11 @@ h1{
 	padding: 10px 0;
 }
 .social {
-		float: right;
-	}
+	float: right;
+}
+.desktopHeading{
+	margin-bottom: 20px;
+}
 
 @media  (max-width: 992px){
 	.social ,.footerListOfList{
@@ -521,7 +532,9 @@ h1{
 	.sportSpecificList li:hover .sportSpecificHover {
 	display: none;
 	}
-
+	.banner{
+	background-position: 100% 0;
+	}
 }
 @media (max-width: 768px) { 
  	.sitLinkList{
@@ -536,7 +549,7 @@ h1{
 	.footerListOfList{
 		width: 320px;
 	}
-	.desktop{
+	.desktopHeading{
 		display: none;
 	}
 	.panel-heading{
