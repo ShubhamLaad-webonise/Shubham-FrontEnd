@@ -597,6 +597,9 @@ h1{
 
 }
 @media (max-width: 768px) { 
+	.collapse.in{
+		display: none;
+	}
 	.bannerPlayer{
 		width: auto;
 	}
