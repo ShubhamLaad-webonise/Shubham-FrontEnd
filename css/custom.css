@@ -71,26 +71,35 @@ a,a:focus, a:hover{
 .menu .menuList li a:hover{
 	background-color: #eeeeee;
 }
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body,.panel{
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body,.panel,.panel-default > .panel-heading{
 	border:none;
 }
-.panel-group .panel+.panel {
+.panel-group .panel+.panel,.panel-group {
 	margin: 0;
 }
 .panel-body{
 	padding: 0;
 }
+.panel-default > .panel-heading{
+	background-color: #ffffff;
+}
  
 /*banner*/
 .banner{
-	padding-top: 115px ;
-	background: url(../images/bannerBasketball.jpg) no-repeat;
-	background-size: cover;
-	height: 600px;
+	background: url(../images/bannerPattern.jpg) repeat;
+	overflow: hidden;
+}
+.bannerPlayer{
+	width: 465px;
+	height: 443px;
+	background: url(../images/player.png) no-repeat;
+	float: right;
 }
 .bannerText{
+	margin-top: 110px;
 	color: #ffffff;
-	max-width: 432px;
+	max-width: 475px;
+	float: left;
 }
 h1,.bannerText h2,.standardHead{
 	font-size: 36px;
@@ -109,6 +118,7 @@ h1,.bannerText h2,.standardHead{
 .bannerText h3{
 	margin-bottom: 30px;
 	color: #ffffff;
+	font-size: 28px;
 }
 .bannerText p{
 	font-size: 14px;
@@ -121,14 +131,7 @@ h1,.bannerText h2,.standardHead{
 	background-color: #004e94;
 	color: #ffffff;
 }
-.bannerBottom{
-	display: none;
-	background-color: #19232d;
-	padding: 40px 0 20px;
-}
-.bannerBottom .bannerText{
-	margin: 0 auto;
-}
+
 /*statndard*/
 .standardHead{
 	margin-bottom: 60px;
@@ -424,7 +427,7 @@ h1{
 	border-color: #243340;
 	min-height: 240px;
 	padding: 0 25px;
-	width: 160px;
+	width: 145px;
 }
 .footerListOfList{
 	margin-bottom: 20px;
@@ -519,15 +522,15 @@ h1{
 	.social ,.footerListOfList{
 		float: none;
 	}
-	
-	.bannerBottom{
-		display: block;
+	.banner{
+		text-align: center;
 	}
-	.banner .bannerText{
-		display: none;
+	 .bannerText,.bannerPlayer{
+		float: none;
+		margin: 0 auto
 	}
 	.footerListOfList{
-		width: 640px;
+		width: 580px;
 		margin: 0 auto 20px;
 	}
 	.courseFormList li,.courseFormList{
@@ -546,9 +549,6 @@ h1{
 	}
 	.sportSpecificList li:hover .sportSpecificHover ,.viewAll a {
 		display: none;
-	}
-	.banner{
-		background-position: 100% 0;
 	}
 	.standard{
 		padding: 35px 0;
@@ -588,6 +588,9 @@ h1{
 	.footerListOfList a{
 		font-size: 12px;
 	}
+	.coreCourseList :first-child{
+		margin-bottom: 15px;
+	}	
 
 }
 @media (max-width: 768px) { 
@@ -601,7 +604,7 @@ h1{
 		border:none;
 	}
 	.footerListOfList{
-		width: 320px;
+		width: 290px;
 	}
 	.desktopHeading{
 		display: none;
@@ -609,16 +612,25 @@ h1{
 	.panel-heading{
 		display: block;
 	}
-	.coreCourseList :first-child{
-		margin-bottom: 15px;
+	.panel-heading .panel-title .heading:before
+ 	{
+	    font-family: 'Glyphicons Halflings';
+	    content: "\e080";
 	}
-	.navbar-default .menuList li a{
+	.panel-heading .panel-title .collapsed:before
+	{
+		font-family: 'Glyphicons Halflings';
+	    content: "\e114";
+	}
+	.panel-title .heading{
+		text-align: left;
+	}
+ }
+ @media (max-width: 767px){
+ 	.navbar-default .menuList li a{
 	 padding: 10px 0px 10px 0px;
 	}
 	.menuList {
-	background: #f3f3f3;
     text-align: center;
-    border-top: 1px solid #ddd;
-}
 	}
  }
