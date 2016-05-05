@@ -137,8 +137,8 @@ h1,.bannerText h2,.standardHead{
 .standard{
 	padding: 70px 0 60px;
 }
-.leaderList li{
-	margin-bottom: 40px;
+.leaderList{
+	margin-bottom: 70px;
 }
 
 .leaderList span{
@@ -183,7 +183,7 @@ h1,.bannerText h2,.standardHead{
 	background-color: #eeeeee;
 	margin-bottom: 40px;
 	padding: 40px 0;
-	overflow: hidden;
+	overflow: scroll;
 }
 .patnerList{
     width: 992px;
@@ -513,7 +513,9 @@ h1{
 		width: 300px;
 		margin: 0 auto;
 }
-
+.collapse{
+	display: block;
+}
 
 @media  (max-width: 992px){
 	.social ,.footerListOfList{
@@ -598,7 +600,15 @@ h1{
 
 }
 @media (max-width: 768px) { 
-
+	.leaderList li{
+		margin-bottom: 40px;
+	}
+	.leaderList {
+		margin: 0;
+	}
+	.collapse{
+	display: none;
+	}	
 	.bannerPlayer{
 		width: auto;
 	}
