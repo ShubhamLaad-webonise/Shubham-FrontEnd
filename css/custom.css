@@ -514,6 +514,7 @@ h1{
 		margin: 0 auto;
 }
 
+
 @media  (max-width: 992px){
 	.social ,.footerListOfList{
 		float: none;
@@ -597,9 +598,7 @@ h1{
 
 }
 @media (max-width: 768px) { 
-	.collapse.in{
-		display: none;
-	}
+
 	.bannerPlayer{
 		width: auto;
 	}
