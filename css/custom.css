@@ -54,19 +54,18 @@ a,a:focus, a:hover{
 	background-color: #ffffff;
 	margin: 0;
 }
-.menuList{
+.menuList,.menuList li{
 	border-right: 1px solid;
-	border-color: rgb(219, 219, 219);	
+	border-color: #dbdbdb;	
 }
 .menuList li{
 	border-left: 1px solid;
-	border-color: rgb(219, 219, 219);
+	border-color: #dbdbdb;
 }
-.menuList li a{
+.navbar-default .menuList li a{
 	color: #19232d;
 	padding: 25px 10px;
 	font-size: 16px;
-	font-weight: bold;
 }
 
 .menu .menuList li a:hover{
@@ -84,17 +83,16 @@ a,a:focus, a:hover{
  
 /*banner*/
 .banner{
-	padding: 115px 0 ;
+	padding-top: 115px ;
 	background: url(../images/bannerBasketball.jpg) no-repeat;
 	background-size: cover;
-	margin-bottom: 55px;
-	height: 472px;
+	height: 600px;
 }
 .bannerText{
 	color: #ffffff;
 	max-width: 432px;
 }
-h1,h2{
+h1,.bannerText h2,.standardHead{
 	font-size: 36px;
 }
 .panel-title .heading,.heading{
@@ -131,13 +129,16 @@ h1,h2{
 .bannerBottom .bannerText{
 	margin: 0 auto;
 }
-
+/*statndard*/
 .standardHead{
 	margin-bottom: 60px;
 	color: #cd091d;
 }
-/*statnderd*/
-.standard ,.leaderList li{
+
+.standard{
+	padding: 70px 0 60px;
+}
+.leaderList li{
 	margin-bottom: 40px;
 }
 
@@ -165,9 +166,10 @@ h1,h2{
 }
 .leaderText{
 	display:inline-block;
-	width: 160px;
+	width: 192px;
 	margin-left: 10px;
 	font-weight: bold;
+	font-size: 24px;
 }
 .courseCount{
 	font-size: 28px;
@@ -238,7 +240,7 @@ img{
 }
 .findCourse{
 	background-image: url(../images/findCourse.jpg);
-	padding: 40px;
+	padding: 40px 0;
 	margin-bottom: 50px;
 }
 h1{
@@ -272,16 +274,17 @@ h1{
 	width: 130px;
 	height: 36px;
 	border-radius: 4px;
-	border:1px solid rgb(34, 34, 34);;
+	border:1px solid #222222;
 	margin-left: 20px;
 	color: #ffffff;
 	float: left;
 }
-
+.coreCourseList{
+	margin-bottom: 80px;
+}
 .coreCourseList li{
 	height: 290px;
 	position: relative;
-	margin-bottom: 15px;
 }
 
 .coreCourseImageText{
@@ -316,7 +319,7 @@ h1{
 .sportSpecificHover{
 	display: none;
 	position: absolute;
-	background-color: rgb(54, 65, 74);
+	background-color: #363e4a;
   	opacity: 0.902;
   	top: 0;
   	left: 15px;
@@ -384,17 +387,17 @@ h1{
 .sportSpecificList li> p{
 	font-size: 16px;
 	color: #000000;
-	background-color: rgb(238, 238, 238);
+	background-color: #eeeeee;
 	padding: 25px 0;
 }
 .boldText{
 	font-weight: bold;
 }
 .sportSpecificPrize{
-	background-color: rgb(54, 65, 74);
+	background-color: #364a59;
 }
 .money{
-	background-color: rgb(25, 35, 45);
+	background-color: #19232d;
 	display: inline-block;
 	font-size: 17px;
 	padding: 15px;
@@ -403,7 +406,7 @@ h1{
 .completions{
 	display: inline-block;
 	font-size: 12px;
-	padding: 18px;
+	padding: 18px 14px;
 	color: #82878b;
 }
 .adWeAllWin{
@@ -418,7 +421,7 @@ h1{
 .footerListOfList >li{
 	float: left;
 	border-left: 1px solid;
-	border-color: rgb(36, 51, 64);
+	border-color: #243340;
 	min-height: 240px;
 	padding: 0 25px;
 	width: 160px;
@@ -437,10 +440,11 @@ h1{
 .footerLinkList li{
 	margin-bottom: 15px;
 }
-
-.footerListOfList a{	
-	color: #ffffff;
+.footerListOfList{
 	font-size: 13px;
+}	
+.footerListOfList a{	
+	color: #ffffff;	
 }
 .footerLinkList a {
 	color: #3f5061;
@@ -452,7 +456,6 @@ h1{
 }
 .tweet{
 	background-color: #31475a;
-	width: 300px;
 	padding: 20px;
 	color: #ffffff;
 	margin-bottom: 20px;
@@ -469,7 +472,7 @@ h1{
 	color: #ffffff;
 }
 .socialIconList li{
-	float: left;
+	display: inline-block;
 	margin-left: 20px;
 }
 .socialIconList a{
@@ -501,11 +504,22 @@ h1{
 .desktopHeading{
 	margin-bottom: 20px;
 }
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #b03060;
+}
+.navbar-default .navbar-toggle{
+	border:none;
+}
+.social{
+		width: 300px;
+		margin: 0 auto;
+}
 
 @media  (max-width: 992px){
 	.social ,.footerListOfList{
 		float: none;
 	}
+	
 	.bannerBottom{
 		display: block;
 	}
@@ -514,6 +528,7 @@ h1{
 	}
 	.footerListOfList{
 		width: 640px;
+		margin: 0 auto 20px;
 	}
 	.courseFormList li,.courseFormList{
 		float: none;
@@ -529,12 +544,51 @@ h1{
 		text-align: center;
 		margin-left: 0;
 	}
-	.sportSpecificList li:hover .sportSpecificHover {
-	display: none;
+	.sportSpecificList li:hover .sportSpecificHover ,.viewAll a {
+		display: none;
 	}
 	.banner{
-	background-position: 100% 0;
+		background-position: 100% 0;
 	}
+	.standard{
+		padding: 35px 0;
+	}
+	.standardHead{
+		font-size: 24px;
+		margin-bottom: 45px;
+	}
+	.leaderText{
+		font-size: 18px;
+	}
+	.number{
+		font-size: 24px;
+	}
+	.countText{
+		font-size: 20px;
+	}
+	.patner,.adJoin{
+		margin-bottom: 0;
+	}
+	h1{
+		font-size: 24px;
+		margin-bottom: 25px;
+	}
+	.panel-title .heading, .heading{
+		font-size: 24px;
+	}
+	.desktopHeading {
+    margin-bottom: 30px;
+	}
+	.coreCourseImageText h4 {
+		font-size: 17px;
+	}
+	.coreCourseList{
+		margin-bottom: 50px;
+	}
+	.footerListOfList a{
+		font-size: 12px;
+	}
+
 }
 @media (max-width: 768px) { 
  	.sitLinkList{
@@ -554,5 +608,17 @@ h1{
 	}
 	.panel-heading{
 		display: block;
+	}
+	.coreCourseList :first-child{
+		margin-bottom: 15px;
+	}
+	.navbar-default .menuList li a{
+	 padding: 10px 0px 10px 0px;
+	}
+	.menuList {
+	background: #f3f3f3;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
 	}
  }
