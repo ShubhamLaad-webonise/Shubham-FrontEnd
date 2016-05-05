@@ -84,12 +84,11 @@ a,a:focus, a:hover{
 /*banner*/
 .banner{
 	background: url(../images/bannerPattern.jpg) repeat;
-	overflow: hidden;
 }
 .bannerPlayer{
 	width: 465px;
 	height: 443px;
-	background: url(../images/player.png) no-repeat;
+	background: url(../images/player.png) no-repeat center;
 	float: right;
 }
 .bannerText{
@@ -598,6 +597,9 @@ h1{
 
 }
 @media (max-width: 768px) { 
+	.bannerPlayer{
+		width: auto;
+	}
  	.sitLinkList,.desktopHeading{
  		display: none;
  	}
