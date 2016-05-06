@@ -91,6 +91,7 @@ select{
 /*banner*/
 .banner{
 	background: url(../images/bannerPattern.jpg) repeat;
+	margin-bottom: 60px;
 }
 .bannerPlayer{
 	max-width: 465px;
@@ -138,7 +139,7 @@ h1,.bannerText h2,.standardHead{
 }
 
 .standard{
-	padding: 70px 0 60px;
+	margin-bottom:60px;
 }
 .leaderList{
 	margin-bottom: 70px;
@@ -186,7 +187,7 @@ h1,.bannerText h2,.standardHead{
 	background-color: #eeeeee;
 	margin-bottom: 40px;
 	padding: 40px 0;
-	overflow: scroll;
+	overflow-x: auto;
 }
 .patnerList{
     width: 992px;
@@ -309,7 +310,7 @@ h1{
 }
 .iconList li{
 	float: left;
-	margin-left: 20px;
+	margin-left: 18px;
 }
 .iconList a{
 	display: inline-block;
@@ -358,7 +359,6 @@ h1{
 	margin-bottom: 40px;
 }
 .sportSpecificList .sportSpecificContent{
-	max-width: 220px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -514,6 +514,7 @@ h1{
 	}
 	.banner{
 		text-align: center;
+		margin-bottom: 35px;
 	}
 	 .bannerText,.bannerPlayer{
 		float: none;
@@ -545,7 +546,7 @@ h1{
 		display: none;
 	}
 	.sportSpecificList li p{
-		padding: 13px 34px 20px;
+		padding: 13px 39px 20px;
 		line-height: 24px;
 	}
 	.footerListOfList >li{
@@ -565,11 +566,11 @@ h1{
 		margin-bottom: 15px;
 	}
 	.findCourse{
-		padding: 24px 0 0 ;
+		padding: 24px 0 ;
 		margin-bottom: 44px;
 	}
 	.search{
-		margin:0 0 24px;
+		margin: 0;
 		float: none;
 		width: 248px;
 	}
@@ -580,7 +581,7 @@ h1{
 	}
 
 	.standard{
-		padding: 35px 0;
+		margin-bottom: 35px;
 	}
 	.standardHead{
 		font-size: 24px;
@@ -673,6 +674,9 @@ h1{
 	}
 	.panel-title {
 		text-align: left;
+	}
+	.sportSpecificList .sportSpecificContent{
+		max-width: 300px;
 	}
  }
  @media (max-width: 767px){
