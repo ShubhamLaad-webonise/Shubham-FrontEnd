@@ -36,20 +36,26 @@
 			    </div>
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav navbar-right menuList">
-			       <li><a href="javascript:void(0);" >COURSES</a></li>
-					<li><a href="javascript:void(0);" >COACHING REQUIRMENTS</a></li>
-					<li><a href="javascript:void(0);" >USER LOOKUP</a></li>
-					<li><a href="javascript:void(0);" >HELP</a></li>
-					<li><a href="javascript:void(0);" ><span class=" glyphicon glyphicon-search"></span></a></li>
-			     </ul>
+			      	<ul class="nav navbar-nav navbar-right menuList">
+				       <li><a href="javascript:void(0);" >COURSES</a></li>
+						<li><a href="javascript:void(0);" >COACHING REQUIRMENTS</a></li>
+						<li><a href="javascript:void(0);" >USER LOOKUP</a></li>
+						<li><a href="javascript:void(0);" >HELP</a></li>
+						<li><a href="javascript:void(0); " class="searchIcon" ><span class=" glyphicon glyphicon-search"></span></a>
+							<form class="searchbox" >
+							    <input  type="text" placeholder="Type here">
+							    <input  type="submit" value="Search">
+							</form>
+						</li>			
+			     	</ul>
+			     	
 			    </div><!-- /.navbar-collapse -->
 			  </div>
 			</nav>
 		</header>
 		<section class="banner">
 			<div class="container">
-				<div class="bannerPlayer"></div>
+				<div class="bannerPlayer"><img src="temporary/player.png" alt="player"></div>
 				<div class="bannerText ">
 					<h2>BASKETBALL</h2>
 					<h3>Fundamentals of Coaching Basketball</h3>
@@ -88,14 +94,14 @@
 		<section class="patner">
 			<div class="container ">
 				<ul class="patnerList ">
-					<li class="ncaaEligiblityCenter"><img src="temporary/ncaaEligiblityCenter.jpg" alt="patnerList"></li>	
-					<li class="usaTrackField"><img src="temporary/usaTrackField.jpg" alt="patnerList"></li>
-					<li class="usaFootball"><img src="temporary/usaFootball.jpg" alt="patnerList"></li>
-					<li class="usaBaseball"><img src="temporary/usaBaseball.jpg" alt="patnerList"></li>
-					<li class="cdc"><img src="temporary/cdc.jpg" alt="patnerList"></li>
-					<li class="asaSoftball"><img src="temporary/asaSoftball.jpg" alt="patnerList"></li>
-					<li class="pgaAmerica"><img src="temporary/pgaAmerica.jpg" alt="patnerList"></li>
-					<li class="usLacrosse"><img src="temporary/usLacrosse.jpg" alt="patnerList"></li>				
+					<li ><img src="temporary/ncaaEligiblityCenter.jpg" alt="patnerList"></li>	
+					<li><img src="temporary/usaTrackField.jpg" alt="patnerList"></li>
+					<li ><img src="temporary/usaFootball.jpg" alt="patnerList"></li>
+					<li ><img src="temporary/usaBaseball.jpg" alt="patnerList"></li>
+					<li ><img src="temporary/cdc.jpg" alt="patnerList"></li>
+					<li ><img src="temporary/asaSoftball.jpg" alt="patnerList"></li>
+					<li ><img src="temporary/pgaAmerica.jpg" alt="patnerList"></li>
+					<li><img src="temporary/usLacrosse.jpg" alt="patnerList"></li>				
 				</ul>			
 			</div>
 		</section>
@@ -131,23 +137,29 @@
             	<h3 class="heading coreCourse">NFHS Core Courses</h3>
 				<div class="row">
 					<ul class="coreCourseList clearfix ">
-						<li class="col-md-6  col-xs-12 "><img src="temporary/newCoreCourse1.jpg" alt="newCoreCourse1">
-							<div class="coreCourseImageText ">
-								<h4>Fundamentals of Coaching</h4>
-								<p>Completions: 120,000+</p>							
-							</div>						
-							
+						<li class="col-md-6  col-xs-12 ">
+							<div class="coreCourseImage">
+								<img src="temporary/newCoreCourse1.jpg" alt="newCoreCourse1">
+									<div class="coreCourseImageText ">
+										<h4>Fundamentals of Coaching</h4>
+										<p>Completions: 120,000+</p>							
+									</div>	
+							</div>							
 						</li>
-						<li class="col-md-6  col-xs-12"><img src="temporary/newCoreCourse2.jpg" alt="newCoreCourse2">
-							<div class="coreCourseImageText ">
-								<h4>First Aid, Health &amp; Safety for Coaches</h4>
-								<p>Completions: 120,000+</p>							
-							</div>	
+						<li class="col-md-6  col-xs-12">
+							<div class="coreCourseImage">
+								<img src="temporary/newCoreCourse2.jpg" alt="newCoreCourse2">
+								<div class="coreCourseImageText ">
+									<h4>First Aid, Health &amp; Safety for Coaches</h4>
+									<p>Completions: 120,000+</p>							
+								</div>
+							</div>		
 						</li>
 					</ul>
 				</div>
 							
-				<div class="panel-group" id="accordion">	
+				<div class="panel-group" id="accordion">
+
 	        		<div class="panel panel-default">
 	            		<div class="panel-heading">
 			                <h3 class="panel-title">
@@ -165,71 +177,79 @@
 								<div class="row">
 									<ul class="sportSpecificList clearfix ">
 										<li class="col-md-3 col-sm-6 col-xs-12 ">
-											<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse1.jpg" alt="sportSpecificCourse1">
-											</div>
-											<p >Fundamentals of Coaching <span class="boldText">Wrestling</span></p>
-											<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span>
-											</div>
-											<div class="sportSpecificHover">
-												<a href="javascript:void(0);">View Course</a>
+											<div class="sportSpecificContent">
+												<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse1.jpg" alt="sportSpecificCourse1">
+												</div>
 												<p >Fundamentals of Coaching <span class="boldText">Wrestling</span></p>
-												<ul class="iconList clearfix">
-													<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
-												</ul>
+												<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span>
+												</div>
+												<div class="sportSpecificHover">
+													<a href="javascript:void(0);">View Course</a>
+													<p >Fundamentals of Coaching <span class="boldText">Wrestling</span></p>
+													<ul class="iconList clearfix">
+														<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
+													</ul>
+												</div>
 											</div>
 										</li>
 										<li class="col-md-3 col-sm-6 col-xs-12 " >
-											<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse2.jpg" alt="sportSpecificCourse1"></div>
-											<p >Fundamentals of Coaching <span class="boldText">Cheer &amp; Dance</span></p>
-											<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span></div>
-											<div class="sportSpecificHover">
-												<a href="javascript:void(0);">View Course</a>
+											<div class="sportSpecificContent">
+												<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse2.jpg" alt="sportSpecificCourse1"></div>
 												<p >Fundamentals of Coaching <span class="boldText">Cheer &amp; Dance</span></p>
-												<ul class="iconList clearfix">
-													<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
-												</ul>
+												<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span></div>
+												<div class="sportSpecificHover">
+													<a href="javascript:void(0);">View Course</a>
+													<p >Fundamentals of Coaching <span class="boldText">Cheer &amp; Dance</span></p>
+													<ul class="iconList clearfix">
+														<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
+													</ul>
+												</div>
 											</div>
 										</li>
 										<li class="col-md-3 col-sm-6 col-xs-12 ">
-											<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse3.jpg" alt="sportSpecificCourse1"></div>
-											<p >Fundamentals of Coaching <span class="boldText">Field Hockey</span></p>
-											<div class="sportSpecificPrize text-left"><span class="money">&#36;75</span><span class="completions">Completions: 25,000+</span></div>
-											<div class="sportSpecificHover">
-												<a href="javascript:void(0);">View Course</a>
+											<div class="sportSpecificContent">
+												<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse3.jpg" alt="sportSpecificCourse1"></div>
 												<p >Fundamentals of Coaching <span class="boldText">Field Hockey</span></p>
-												<ul class="iconList clearfix">
-													<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
-												</ul>
+												<div class="sportSpecificPrize text-left"><span class="money">&#36;75</span><span class="completions">Completions: 25,000+</span></div>
+												<div class="sportSpecificHover">
+													<a href="javascript:void(0);">View Course</a>
+													<p >Fundamentals of Coaching <span class="boldText">Field Hockey</span></p>
+													<ul class="iconList clearfix">
+														<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
+													</ul>
+												</div>
 											</div>
 										</li>
 										<li class="col-md-3 col-sm-6 col-xs-12 ">
-											<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse1.jpg" alt="sportSpecificCourse1">
-											</div>
-											<p >Fundamentals of Coaching <span class="boldText">Wrestling</span></p>
-											<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span>
-											</div>
-											<div class="sportSpecificHover">
-												<a href="javascript:void(0);">View Course</a>
-												<p >Fundamentals of Coaching <span class="boldText">Basketball</span></p>
-												<ul class="iconList clearfix">
-													<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
-												</ul>
+											<div class="sportSpecificContent">
+												<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse1.jpg" alt="sportSpecificCourse1">
+												</div>
+												<p >Fundamentals of Coaching <span class="boldText">Wrestling</span></p>
+												<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span>
+												</div>
+												<div class="sportSpecificHover">
+													<a href="javascript:void(0);">View Course</a>
+													<p >Fundamentals of Coaching <span class="boldText">Basketball</span></p>
+													<ul class="iconList clearfix">
+														<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
+													</ul>
+												</div>
 											</div>
 										</li>					
 									</ul>
@@ -254,6 +274,7 @@
 								<div class="row">
 									<ul class="sportSpecificList clearfix ">
 										<li class="col-md-3 col-sm-6 col-xs-12 ">
+										<div class="sportSpecificContent">
 											<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse1.jpg" alt="sportSpecificCourse1">
 											</div>
 											<p >Fundamentals of Coaching <span class="boldText">Wrestling</span></p>
@@ -270,55 +291,62 @@
 													<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
 												</ul>
 											</div>
+										</div>	
 										</li>
 										<li class="col-md-3 col-sm-6 col-xs-12 " >
-											<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse2.jpg" alt="sportSpecificCourse1"></div>
-											<p >Fundamentals of Coaching <span class="boldText">Cheer &amp; Dance</span></p>
-											<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span></div>
-											<div class="sportSpecificHover">
-												<a href="javascript:void(0);">View Course</a>
+											<div class="sportSpecificContent">
+												<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse2.jpg" alt="sportSpecificCourse1"></div>
 												<p >Fundamentals of Coaching <span class="boldText">Cheer &amp; Dance</span></p>
-												<ul class="iconList clearfix">
-													<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
-												</ul>
+												<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span></div>
+												<div class="sportSpecificHover">
+													<a href="javascript:void(0);">View Course</a>
+													<p >Fundamentals of Coaching <span class="boldText">Cheer &amp; Dance</span></p>
+													<ul class="iconList clearfix">
+														<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
+													</ul>
+												</div>
 											</div>
 										</li>
 										<li class="col-md-3 col-sm-6 col-xs-12 ">
-											<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse3.jpg" alt="sportSpecificCourse1"></div>
-											<p >Fundamentals of Coaching <span class="boldText">Field Hockey</span></p>
-											<div class="sportSpecificPrize text-left"><span class="money">&#36;75</span><span class="completions">Completions: 25,000+</span></div>
-											<div class="sportSpecificHover">
-												<a href="javascript:void(0);">View Course</a>
+											<div class="sportSpecificContent">
+												<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse3.jpg" alt="sportSpecificCourse1"></div>
 												<p >Fundamentals of Coaching <span class="boldText">Field Hockey</span></p>
-												<ul class="iconList clearfix">
-													<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
-												</ul>
+												<div class="sportSpecificPrize text-left"><span class="money">&#36;75</span><span class="completions">Completions: 25,000+</span></div>
+												<div class="sportSpecificHover">
+													<a href="javascript:void(0);">View Course</a>
+													<p >Fundamentals of Coaching <span class="boldText">Field Hockey</span></p>
+													<ul class="iconList clearfix">
+														<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
+													</ul>
+												</div>
 											</div>
 										</li>
 										<li class="col-md-3 col-sm-6 col-xs-12 ">
-											<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse1.jpg" alt="sportSpecificCourse1">
-											</div>
-											<p >Fundamentals of Coaching <span class="boldText">Wrestling</span></p>
-											<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span>
-											</div>
-											<div class="sportSpecificHover">
-												<a href="javascript:void(0);">View Course</a>
-												<p >Fundamentals of Coaching <span class="boldText">Basketball</span></p>
-												<ul class="iconList clearfix">
-													<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
-													<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
-												</ul>
+											<div class="sportSpecificContent">
+												<div class="sportSpecificImage"><img src="temporary/sportSpecificCourse1.jpg" alt="sportSpecificCourse1">
+												</div>
+												<p >Fundamentals of Coaching <span class="boldText">Wrestling</span></p>
+												<div class="sportSpecificPrize text-left"><span class="money">&#36;50</span><span class="completions">Completions: 25,000+</span>
+												</div>
+												<div class="sportSpecificHover">
+													<a href="javascript:void(0);">View Course</a>
+													<p >Fundamentals of Coaching <span class="boldText">Basketball</span></p>
+													<ul class="iconList clearfix">
+														<li ><a href="javascript:void(0);" class="mailIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="linkedinIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="facebookIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="twitterIcon"></a></li>
+														<li ><a href="javascript:void(0);" class="googleIcon"></a></li>
+													</ul>
+												</div>
 											</div>
 										</li>					
 									</ul>
