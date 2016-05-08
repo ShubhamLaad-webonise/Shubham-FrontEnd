@@ -245,6 +245,7 @@ h2{
  .state select{
   border-radius: 3px;
   border:1px solid rgb(204, 204, 204); 
+  padding: 7px 5px;
   width: 100%;
 }
 .state option{
