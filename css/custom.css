@@ -1,0 +1,627 @@
+
+
+
+
+
+@font-face {
+    font-family: 'titillium_webbold';
+    src: url('../fonts/titilliumweb-bold-webfont.eot');
+    src: url('../fonts/titilliumweb-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titilliumweb-bold-webfont.woff2') format('woff2'),
+         url('../fonts/titilliumweb-bold-webfont.woff') format('woff'),
+         url('../fonts/titilliumweb-bold-webfont.ttf') format('truetype'),
+         url('../fonts/titilliumweb-bold-webfont.svg#titillium_webbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titillium_websemibold';
+    src: url('../fonts/titilliumweb-semibold-webfont.eot');
+    src: url('../fonts/titilliumweb-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titilliumweb-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/titilliumweb-semibold-webfont.woff') format('woff'),
+         url('../fonts/titilliumweb-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/titilliumweb-semibold-webfont.svg#titillium_websemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'titillium_webregular';
+    src: url('titilliumweb-regular-webfont.eot');
+    src: url('titilliumweb-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titilliumweb-regular-webfont.woff2') format('woff2'),
+         url('titilliumweb-regular-webfont.woff') format('woff'),
+         url('titilliumweb-regular-webfont.ttf') format('truetype'),
+         url('titilliumweb-regular-webfont.svg#titillium_webregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ul{
+	list-style-type: none;
+}
+
+a,a:focus, a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,ul,li,a,p,label{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+select{
+	cursor: pointer;
+}
+.navbar-nav{
+	margin: 0;
+}
+/*header*/
+.logo{
+	width: 112px;
+	height: 40px;
+	background-image:url(../images/logo.png) ;
+	display: block;
+	margin:15px 0 15px 17px;
+}
+.topStrip{
+	background-color: #19232d;
+	font-size: 12px;
+}
+
+.sitLinkList  li{
+	float: left;
+	margin-left: 20px;
+}
+.sitLinkList a{
+	color:#627588;
+	padding: 10px;
+	display: block;
+}
+.sitLinkList a:hover{
+	background-color: #121212;
+	color: #ffffff;
+}
+
+.signupList li{
+	float: left;
+}
+.signupList a{
+	color: #ffffff;
+	display: block;
+	padding: 10px;
+}
+.menu{
+	background-color: #ffffff;
+	margin: 0;
+}
+.menuList,.menuList li{
+	border-right: 1px solid;
+	border-color: #dbdbdb;	
+}
+.menuList li{
+	border-left: 1px solid;
+	border-color: #dbdbdb;
+}
+.navbar-default .menuList li a{
+	color: #19232d;
+	padding: 25px 10px;
+	font-size: 16px;
+}
+
+.menu .menuList li a:hover{
+	background-color: #eeeeee;
+	color: #cd091d;
+}
+.searchbox{
+	display: none;
+}
+
+/*banner*/
+.banner{
+	background: url(../images/banner.jpg) repeat;
+	padding: 61px 0 131px;
+	margin-bottom: 41px;
+}
+.bannerText{
+	color: #ffffff;
+}
+h1,.courseDetails h2,.filterSection h3{
+	font-family: "titillium_webbold";
+}
+.bannerText h1{
+	font-size: 36px;
+	line-height: 38px;
+	margin-bottom: 14px;
+}
+.bannerText span{
+	font-family: "titillium_webregular";
+	font-size: 31px;
+	line-height: 38px;
+}
+
+/*search part*/
+.stylish-input-group .input-group-addon{
+    background: white; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.courses{
+	margin-bottom: 32px;
+}
+.search{
+	font-size: 13px;
+	line-height: 18px;
+	color: #888888;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 3px;
+	box-shadow: inset 0px 2px 0px 0px rgba(241, 241, 241, 0.004);
+	padding: 5px 10px;
+	}
+.search input,.search button{
+	border:none;
+	background-color: #ffffff;
+}
+.courseImage{
+	float: left;
+	max-height: 156px;
+	max-width: 220px;
+}
+.courseContent{
+	float: left;
+	width: 625px
+}
+.courseText{
+	padding:17px 17px 12px;
+}
+.courses  h2{
+	font-size: 24px;
+	line-height: 26px;	
+}
+h2{
+	color: #cd091d;
+}
+.filterSection{
+	background-color: #f8f8f8;
+	border:1px solid rgb(204, 204, 204);
+}
+.filter a{
+	color: #004e94;
+	font-size: 12px;
+	line-height: 23px;
+	display: block;
+	text-decoration: underline;
+}
+.filter a:hover{
+	color: #cd091d;
+}
+
+.filter h2{
+	font-size: 21px;
+	line-height: 23px;
+}
+.filterSection h3{
+	font-size: 15px;
+	line-height: 21px;
+	margin-bottom: 10px;
+}
+
+.filter,.filterList,.state{	
+	padding: 20px 21px;	
+}
+.filterList,.state{
+	border-top:1px solid rgb(204, 204, 204);
+}
+
+
+.filterCourseList label{
+	font-size: 12px;
+	line-height: 20px;
+	color: #666666;
+}
+.filterCourseList input{
+	margin: 0 7px 0 0;
+	vertical-align: middle;
+}
+.filterCourseList li{
+	margin-top: 13px;
+}
+.filterCourseList li:first-child{
+	margin: 0;
+}
+ .state select{
+  border-radius: 3px;
+  border:1px solid rgb(204, 204, 204); 
+  width: 100%;
+}
+.state option{
+	color:#666666;
+	font-size: 13px;
+	line-height: 18px;
+}
+.state option:first-child{
+	display: none;
+}
+.categoryList{
+	padding-bottom: 20px;
+	border-bottom:1px solid rgb(204, 204, 204);
+	margin-bottom: 20px;
+}
+.courseList >li{
+	border:1px solid rgb(238, 238, 238);
+	  background-color: rgb(248, 248, 248);
+	  position: relative;
+	  margin-bottom: 20px;
+	}
+.courseList h3{
+	font-size: 21px;
+	line-height: 23px;
+	margin-bottom: 10px;
+	font-family: "titillium_websemibold";
+}
+.courseText h4{
+	font-size: 16px;
+	line-height: 18px;
+	margin-bottom: 15px;
+}
+.courseList  h4::before{
+	background: url(../images/sprite.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 24px;
+	margin-right: 12px;	
+}
+.courseList .coreCourseHeadingNFHS::before{	
+	background-position: 0 0;
+	width: 15px;
+}
+.courseList  .coreCourseHeadingSport::before{	
+	background-position: 0 -52px;
+	width: 18px;	
+}
+.courseList .coreCourseHeadingElective::before{	
+	background-position: 0 -28px;
+	width: 15px;	
+}
+.courseList .courseText h3,.courseList h4{
+color: #000000;
+}
+.courseList .courseText a{
+	color: #4d4d4d;
+	font-size: 12px;
+	line-height: 14px;
+	border:1px solid #dbdbdb;
+	background-color: #eeeeee;
+	border-radius: 2px;
+	padding: 3px 4px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.courseList .courseImage > a:hover{
+	background-color: #cd091d;
+}
+.iconList li{
+	display: inline-block;
+	margin-right:15px; 
+	vertical-align: middle;
+}
+.iconList a{
+
+    background: url(../images/sprite.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.iconList .mailIcon{
+	width: 17px;
+	height: 12px;
+}
+.iconList .linkedinIcon{
+	width: 14px;
+	height: 15px;
+}
+ .iconList .facebookIcon{
+	width: 10px;
+	height: 15px;
+}
+ .iconList .twitterIcon{
+	width: 17px;
+	height: 14px;
+}
+ .iconList .googleIcon{
+	width: 17px;
+	height: 14px;
+}
+.coursePrize   .mailIcon,.courseListHover  .mailIcon:hover{
+	background-position: 0 -178px;
+}
+ .coursePrize  .linkedinIcon,.courseListHover  .linkedinIcon:hover{
+ 	background-position: 0 -215px;
+}
+.coursePrize  .facebookIcon,.courseListHover  .facebookIcon:hover{
+	background-position: 0 -257px
+}	
+.coursePrize .twitterIcon,.courseListHover .twitterIcon:hover{
+		background-position: 0 -297px;
+}		
+
+.coursePrize .googleIcon,.courseListHover .googleIcon:hover{
+		background-position: 0 -333px;
+	}	
+
+
+.courseListHover  .mailIcon{
+	background-position: 0 -161px;
+}
+.courseListHover  .linkedinIcon{
+ 	background-position: 0 -195px;
+}
+.courseListHover  .facebookIcon{
+	background-position: 0 -235px
+}	
+.courseListHover 	.twitterIcon{
+		background-position: 0 -278px;
+}		
+
+.courseListHover .googleIcon{
+		background-position: 0 -316px;
+}
+
+.money{
+	background-color: #19232d;
+	display: inline-block;
+	font-size: 17px;
+	padding: 5px 15px;
+	color: #ffffff;
+	font-family: "Arial";
+	line-height: 23px;
+}
+.free{
+	background-color: #cd091d;
+}
+.completion {
+    display: inline-block;
+    font-size: 12px;
+    color: #82878b;
+    font-family: "Arial";
+}
+ .iconList {
+	float: right;
+	padding:6px 0;
+}
+.courseListHover .iconList{
+	margin-top: 80px;
+}
+.coursePrize{
+	background-color: #36414a;
+}
+.courseListHover{
+	display: none;
+	position: absolute;
+	background-color: #363e4a;
+	opacity: 0.902;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+}
+.courseListHover >a{
+	display: block;
+	color: #444444;
+	font-size: 16px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	padding: 11px 23px;
+	margin: 20px 0 0 45px;
+	float: left;
+}
+.courseList li:hover .courseListHover{
+	display: block;
+}
+.courseListHover h3{
+	margin: 18px 0 0 235px;
+	color: #ffffff;
+}
+.courseListHover >a:hover{
+	color: #cd091d;
+}
+
+/*footer*/
+
+.footerLink{
+	background-color: #19232d;
+	padding-top: 40px ;
+}
+.footerListOfList >li{
+	float: left;
+	border-left: 1px solid;
+	border-color: #243340;
+	min-height: 240px;
+	padding:0 25px;
+	width: 180px;
+}
+.footerListOfList{
+	margin-bottom: 20px;
+	float: left;
+}
+
+.footerListOfList :first-child{
+	border: none;
+	padding-left: 0;
+	width: 85px;
+}
+.footerLinkList {
+	margin-top: 15px;
+}
+.footerLinkList li{
+	margin-bottom: 15px;
+}
+.footerListOfList{
+	font-size: 13px;
+}	
+.footerListOfList a{	
+	color: #ffffff;	
+}
+.footerLinkList a {
+	color: #3f5061;
+}
+
+.footerListOfList .clear{
+	border: none;
+	min-height: 0;
+}
+.tweet{
+	background-color: #31475a;
+	padding: 20px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.tweet .latest{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.tweet p{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.tweet a{
+	color: #ffffff;
+}
+.socialIconList li{
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: middle;
+}
+.socialIconList a{
+	display: inline-block;
+	background-image: url(../images/sprite.png);
+}
+.facebookIconFooter{
+	background-position: 0 -77px;
+	width: 14px;
+	height: 21px;
+}
+.twitterIconFooter{
+	background-position: 0 -103px;
+	width: 23px;
+	height: 19px;
+}
+.socialIconList li:hover{
+	background-color: #222227;
+}
+.youtubeIconFooter{
+	background-position: 0 -127px;
+	width: 30px;
+	height: 29px;
+}
+.copyright{
+	background-color: #000000;
+	color: #3f5061;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px 0;
+}
+.social {
+	float: right;
+}
+.desktopHeading,.coreCourse{
+	margin-bottom: 20px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #b03060;
+}
+.navbar-default .navbar-toggle{
+	border:none;
+}
+.social{
+		width: 300px;
+		margin: 0 auto;
+}
+.collapse{
+	display: block;
+}
+.searchbox{
+	display: none;
+}
+.signupList a :hover{
+	background-color: #01a451;
+}
+.footerLinkList a:hover{
+	color: #ffffff;
+}
+.socialIconList :first-child{
+	margin: 0;
+}
+@media (max-width:1199px ) { 
+	.courseContent {
+    width: 475px;
+	}
+}	
+@media  (max-width: 992px){
+	.courseContent {
+    width: 498px;
+	}
+	.bannerText h1{
+		font-size: 20px;
+	}
+	.bannerText span{
+		font-size: 16px;
+	}
+	.footerListOfList >li{
+		width: 210px;
+		border:none;
+	}
+	.footerListOfList a{
+		font-size: 12px;
+	}
+	.social ,.footerListOfList{
+		float: none;
+	}
+}
+
+@media (max-width: 768px) { 
+	.menuList li .searchIcon{
+		display: none;
+	}
+	.menuList li,.menuList{
+		border:none;
+	}
+	.searchbox{
+		display: block;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.footerListOfList >li{
+		width: 145px;
+	}
+	.footerListOfList >li:first-child{
+		width: 145px;
+		padding-left: 25px;
+	}
+	.footerListOfList{
+		width: 290px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 767px){
+ 	.navbar-default .menuList li a{
+	 padding: 10px 0px 10px 0px;
+	}
+	.menuList {
+    text-align: center;
+	}
+ }	
