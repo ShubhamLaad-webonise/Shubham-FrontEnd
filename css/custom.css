@@ -612,18 +612,54 @@ color: #000000;
 		text-align: center;
 		margin-bottom: 10px;
 	}
-	.footerListOfList >li{
+	.leaderList li{
+		margin-bottom: 40px;
+	}
+	.leaderList {
+		margin: 0;
+	}
+
+ 	.sitLinkList,.desktopHeading,.collapse{
+ 		display: none;
+ 	}
+ 	.countText,.panel-heading{
+ 		display: block;
+ 	}
+ 	.footerListOfList >li{
 		width: 145px;
 	}
 	.footerListOfList >li:first-child{
 		width: 145px;
 		padding-left: 25px;
 	}
+
 	.footerListOfList{
 		width: 290px;
 		margin: 0 auto;
 	}
-}
+	.panel-title  {
+		margin-bottom: 28px;
+	}
+	.panel-heading .panel-title .heading:before
+ 	{
+	    font-family: 'Glyphicons Halflings';
+	    content: "\e080";
+	}
+	.panel-heading .panel-title .collapsed:before
+	{
+		font-family: 'Glyphicons Halflings';
+	    content: "\e114";
+	}
+	.panel-title {
+		text-align: left;
+	}
+	.sportSpecificList .sportSpecificContent{
+		max-width: 300px;
+	}
+	.courseImage,.courseContent {
+		float: none;
+	}
+ }
 @media (max-width: 767px){
  	.navbar-default .menuList li a{
 	 padding: 10px 0px 10px 0px;
