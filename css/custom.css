@@ -567,12 +567,18 @@ color: #000000;
 .socialIconList :first-child{
 	margin: 0;
 }
+.tweet a:hover{
+	text-decoration: underline;
+}
 @media (max-width:1199px ) { 
 	.courseContent {
     width: 475px;
 	}
 }	
 @media  (max-width: 992px){
+	.courseList > li:hover .courseListHover{
+		display: none;
+	}
 	.courseContent {
     width: 498px;
 	}
